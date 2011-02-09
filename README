@@ -88,5 +88,7 @@
   #make some changes to README
   $ git add README
   $ git ci
-   
+  Apparently now that we have already pushed big once it is enought to type
+  $ git push
+  # and it will be pushed again 
 

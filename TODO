@@ -1,0 +1,12 @@
+- Create a local branch make some change merge
+- Create several local branches, make changes to them and merge them in some interesting order
+- Let's call this local repo (A)
+  Create another local clone (B) from Github, make changes there, push them to master on Github
+  make local changes in A as well, try to push them out when there is no conclict.
+  Repeate above exercise but create a conflicting change 
+- Create a branch in A and push it to Github
+
+
+
+- Fork on Github ...
+

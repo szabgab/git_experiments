@@ -14,3 +14,6 @@
   $ git add README
   $ git ci
   $ git push
+- Add another file called TODO where I list the use case I would like to check out
+  $ git add .
+  $ git co

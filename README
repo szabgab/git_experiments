@@ -73,5 +73,20 @@
   $ git ci
 - push the big branch to the remote repository
   $ git push origin big
+
+- in the other local clone run
+  $ git pull
+  $ gitk --all
+  # observe the big branch here too, you can switch to it
+
+- in the regular local clone while on branch big:
+  # change README
+  $ git add README
+  $ git ci
+- merge from master
+  $ git merge master
+  #make some changes to README
+  $ git add README
+  $ git ci
    
 

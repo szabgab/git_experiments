@@ -40,4 +40,13 @@
   $ git co master
   $ git add .
   $ git ci
+- In the meantime using we can observe the various branches in the local repository:
+  $ gitk --all
+- While on the master branch merge the other branch and push it out
+  $ git merge other
+  $ git push
+= What is disturbing me that now I can see the same change twice. I can see the change both as it was originaly done
+  and under the title "Merge" as well.
+- Delete the local branch that was merged and is not needed any more:
+  $ git branch -d other
 

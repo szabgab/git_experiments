@@ -50,3 +50,13 @@
 - Delete the local branch that was merged and is not needed any more:
   $ git branch -d other
 
+- On another machine create a clone:
+  $ git clone git@github.com:szabgab/git_experiments.git A_git
+  $ cd A_git
+  $ gitk --all
+  # we can see all the earlier branches but they only reveal their original name in the Merge comment
+  $ git co -b
+  # edit the README file
+
+
+

@@ -55,8 +55,18 @@
   $ cd A_git
   $ gitk --all
   # we can see all the earlier branches but they only reveal their original name in the Merge comment
-  $ git co -b
-  # edit the README file
-
+  # edit the README file and the .gitignore file (add *~)
+  $ git add README
+  $ git ci
+  $ git co -b big
+  # make changes to A/file2.txt
+  $ git add A\file2.txt
+  $ git ci
+  # switch to the master and make some changes there
+  $ git co master
+  $ git add .gitignore
+  $ git ci
+  $ git push     # being on master the two changes on master get pushed
+  $ git co big
 
 

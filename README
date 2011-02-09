@@ -17,3 +17,9 @@
 - Add another file called TODO where I list the use case I would like to check out
   $ git add .
   $ git co
+- The above would have caused a problem if I was doing it while this file is open
+  in vim as there is a .swp file
+  So create .gitignore and add *.swp in it.
+  Now I can safely use
+  $ git add .
+  $ git ci -m'gitignore swap files'

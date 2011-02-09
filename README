@@ -68,5 +68,10 @@
   $ git ci
   $ git push     # being on master the two changes on master get pushed
   $ git co big
-
+  # edit README
+  $ git add README
+  $ git ci
+- push the big branch to the remote repository
+  $ git push origin big
+   
 

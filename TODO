@@ -7,6 +7,13 @@
 - Create a branch in A and push it to Github
 
 
+- Make some local changes when recognizing I need to do some other small change (e.g. a refactoring)
+  before that change.
+  Save the current changes
+  Go back to the original
+  Make the other changes (e.g. refactoring)
+  commit the changes
+  come back to where I was earlier to continue what I have been doing
 
 - Fork on Github ...
 

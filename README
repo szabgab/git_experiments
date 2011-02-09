@@ -23,3 +23,21 @@
   Now I can safely use
   $ git add .
   $ git ci -m'gitignore swap files'
+- Create a branch. In the branch create a new file A/file2.txt, add the new file
+  The branch could be created any time. Before the changes or during the changes or after I finished them.
+  $ git co -b dev
+  $ git add A/file2.txt
+  $ git ci
+- Make another change to the same file
+  $ git add A/file2.txt
+  $ git ci
+- Go back to master branch, create another branch, make some changes to file1 and commit them
+  $ git co master
+  $ git co -b other
+  $ git add A
+  $ git ci
+- go back to master and commit the changes to this README and to the TODO file
+  $ git co master
+  $ git add .
+  $ git ci
+

@@ -1,3 +1,16 @@
-- Create a local empty Git repository
+- Create a local empty Git repository using
+  $ git init .
 - Add this README file
+  $ git add README
+  $ git ci
 - Add a directory called A with a file call A/file1.txt with one line in it
+  $ git add A
+  $ git add README
+  $ git ci 
+- Created a repository on Github called szabgab/git_experiments and then followed the instructions:
+  $ git remote add origin git@github.com:szabgab/git_experiments.git
+  $ git push origin master
+  After that added these lines to the README file and pushed them out again:
+  $ git add README
+  $ git ci
+  $ git push
